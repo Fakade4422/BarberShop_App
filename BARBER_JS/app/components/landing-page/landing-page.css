@@ -1,0 +1,212 @@
+*{
+    /* border: 2px solid black; */
+}
+
+/*--- HEADER ----*/
+header {
+    background-color: #ffffff;
+}
+
+.underline-border {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* --- Left: Logo --- */
+.logo-section {
+    flex: 1; /* Allocates equal space to the left and right columns to perfectly center the middle */
+    display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    color: rgb(249, 209, 10);
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 900;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+}
+
+/* --- Center: Navigation --- */
+.nav-links {
+    flex: 2; /* Takes up central space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #8c8c8c; /* Matches the muted grey in the mockup */
+    font-size: 1rem;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.nav-links li a:hover {
+    color: #000000;
+}
+
+/* --- Right: Buttons --- */
+.action-buttons {
+    flex: 1; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem; /* Space between Login and Book Now */
+}
+
+.btn {
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.6rem 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-login {
+    background-color: #2c2c2c;
+    color: #ffffff;
+}
+
+.btn-book {
+    background-color: #fcc914; /* Matches the golden yellow button */
+    color: #000000;
+}
+
+.btn-login:hover {
+    background-color: #000000;
+}
+
+.btn-book:hover {
+    background-color: #e5b610;
+}
+
+.image-wrapper{
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+}
+
+.image-content{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+/*--- END OF HEADER -----*/
+
+/* Outer track (light grey background) */
+.portal-toggle-container {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  gap: 4px; /* Creates spacing between tabs */
+}
+
+/* Base style for each tab */
+.portal-tab {
+  flex: 1; /* Ensures equal width across all 3 items */
+  text-align: center;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: 700;
+  color: #888888;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Active selected state (dark black card) */
+.portal-tab.active {
+  background-color: #686868;
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.portal-tab.active:hover{
+    background-color: #616161;
+    scale: 1.02;
+}
+
+.span-link{
+    color: rgb(249, 209, 10); 
+    text-decoration: none;
+}
+.span-link:hover{
+    text-decoration: underline;
+}
+
+.input-txt{
+    height: 2.8rem;
+    border-radius: 5px;
+    border: 1.5px solid rgb(220, 220, 220);
+    margin: 0.8rem auto;
+}
+
+.SignUp-SubmitBtn{
+    height: 2.8rem;
+    color: black;
+    text-align: center;
+    background: rgb(249, 209, 10);
+    border-radius: 8px;
+    border: none;
+}
+.SignUp-SubmitBtn:hover{
+    cursor: pointer;
+    background: rgb(255, 213, 0);
+    scale: 1.02;
+}
+
+/*-- Footer --*/
+footer{
+    background-color: #2f2f2f;
+    height: 18vh;
+    color: #878787;
+}
+
+.footer-wrapper{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-wrapper span:hover{
+    color: whitesmoke;
+    scale: 1.02;
+    cursor: pointer;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Or whatever height/padding your section uses */
+}
+
+.footer-content {
+  flex: 1; /* Pushes everything below it down to the bottom */
+}
+
+/*---- SECTIONS ----*/
+html section{ /*-- Gives the certain section full page height  --*/
+    height: 100vh;
+    width: 100%;
+}
+
+html{  /*--- Enables the scrolling smooth down feature ----*/
+    scroll-behavior: smooth;
+}
