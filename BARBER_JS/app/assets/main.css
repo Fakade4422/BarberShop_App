@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{  /*--- Enables the scrolling smooth down feature ----*/
+    scroll-behavior: smooth;
+}
