@@ -5,7 +5,7 @@
 
     function LandingPageController() {
         var vm = this;
-        vm.title = 'CLIPPERS BARBERSHOP';
+        vm.title = 'CLIPPERS';
     }
 
 })();
