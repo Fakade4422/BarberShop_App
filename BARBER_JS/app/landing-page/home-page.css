@@ -1,0 +1,40 @@
+#about{
+    background-image: url('/BARBER_JS/app/assets/images/stefan-schauberger-Tper6bHeSUo-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.heading-txt{
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.sub-text{
+    color: #bdbdbd;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.panel{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-services{
+    background-color: #f1f1f1; /* Matches the golden yellow button */
+    color: #000000;
+    text-decoration: none;
+    font-size: 0.80rem;
+    font-weight: 700;
+    padding: 0.6rem 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btn-services:hover {
+    background-color: #f1f1f1;
+    scale: 1.02; /* Slightly enlarges the link on hover for a subtle effect */
+}
