@@ -12,14 +12,13 @@
         <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
-            <li><a href="#team">Team</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
 
         <!-- Right Column: Action Buttons -->
         <div class="action-buttons">
             <a href="#login" class="btn-login">Login</a>
-            <a href="#book" class="btn-book">Book Now</a>
+            <a href="#book" class="btn-SignUp">Sign Up</a>
         </div>
     </div>
 </header>
@@ -30,7 +29,7 @@
         <h1 class="heading-txt text-center">GIVE YOU THAT SK FEELING,</h1>
         <p class="sub-text text-center">Trust us to deliver the perfect look you deserve. Be a Gentlemen</p>
         <div class="row w-100 mx-0 p-2 gap-2 text-center flex-nowrap">
-            <a href="#" class="btn-book flex-fill">Book Now</a>
+            <a href="#" class="btn-SignUp flex-fill">Book Now</a>
             <a href="#" class="btn-services flex-fill">Our Services</a>
         </div>
     </div>
@@ -40,5 +39,11 @@
     <div ng-include="'./shared/components/services/services.html'"></div>
 </section>
 
-<section id="team" class="panel">team</section>
-<section id="contact" class="panel">Contact</section>
+<section id="contact" class="contact-panel">
+    <div class="row mx-0 p-0">
+        <div ng-include="'./shared/components/contact/contact.html'"></div>
+    </div>
+    <div class="row mx-0 p-0">
+        <div ng-include="'./shared/components/footer/footer.html'"></div>
+    </div>
+</section>
