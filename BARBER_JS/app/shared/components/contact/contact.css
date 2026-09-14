@@ -1,6 +1,18 @@
 .form-wrapper{
+    width: 75%;
+    height: 80%;
     border-radius: 15px;
     gap: 30px;
+    border: 2px solid #b1a57c;
+    box-shadow: 0 10px 25px -5px rgba(252, 201, 20, 0.4),
+              0 8px 10px -6px rgba(252, 201, 20, 0.2);
+}
+
+.contact-heading{
+    color: #fcc914;
+    font-size: 4rem;
+    text-decoration: italic;
+    font-weight: 900;
 }
 
 .contact-panel{
@@ -24,8 +36,10 @@
 }
 
 #img-contact{
-    height: 350px;
+    height: 550px;
     background-image: url('/BARBER_JS/app/assets/images/joshua-lawrence-dU6eE_j2My8-unsplash.jpg');
     background-size: cover;
     background-position: center;
+    border-radius: 40px;
+
 }
