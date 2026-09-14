@@ -103,7 +103,7 @@ header {
     scale: 1.02;
 }
 
-.btn-book {
+.btn-SignUp {
     background-color: #fcc914; /* Matches the golden yellow button */
     color: #000000;
     text-decoration: none;
@@ -116,10 +116,24 @@ header {
     border-radius: 15px;
     cursor: pointer;
 }
-.btn-book:hover {
+.btn-SignUp:hover {
     background-color: #e5b610;
     color:white;
     scale: 1.02;
+}
+
+.btn-services{
+    background-color: white; /* Matches the golden yellow button */
+    color: #000000;
+    text-decoration: none;
+    font-size: 0.80rem;
+    font-weight: 700;
+    padding: 0.6rem 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
 .image-wrapper{

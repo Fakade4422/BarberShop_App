@@ -1,0 +1,31 @@
+.form-wrapper{
+    border-radius: 15px;
+    gap: 30px;
+}
+
+.contact-panel{
+    height: 100vh;
+}
+
+.textarea-wrapper{
+    height: 10rem;
+}
+
+.btn-contact{
+    font-weight: 600;
+    background-color: #fcc914;
+    border-radius: 10px;
+    border: none;
+}
+.btn-contact:hover{
+    font-weight: 700;
+    scale: 1.02;
+    color: white;
+}
+
+#img-contact{
+    height: 350px;
+    background-image: url('/BARBER_JS/app/assets/images/joshua-lawrence-dU6eE_j2My8-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+}
