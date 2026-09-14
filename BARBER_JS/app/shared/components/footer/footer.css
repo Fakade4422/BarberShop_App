@@ -1,0 +1,16 @@
+footer{
+    background-color: #2f2f2f;
+    height: 25vh;
+    color: #878787;
+}
+
+.footer-wrapper{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-wrapper span:hover{
+    color: whitesmoke;
+    scale: 1.02;
+    cursor: pointer;
+}
