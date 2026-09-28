@@ -232,6 +232,9 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Endpoints\Client\ClientController.cs" />
+    <Compile Include="Endpoints\Client\Mapping.cs" />
+    <Compile Include="Endpoints\Client\Service.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -316,6 +319,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Endpoints\Barber\" />
+    <Folder Include="Endpoints\Manager\" />
+    <Folder Include="Repositories\EF\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\bootstrap.min.js.map" />
